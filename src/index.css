@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background: 
+        linear-gradient(#2b00b700, #000000ca), 
+        url('../src/assets/astrox.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+code {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

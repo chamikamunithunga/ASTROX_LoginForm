@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), 
+                url('../src/assets/astrox.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: rgba(255, 255, 255, 0.042); 
+    width: 90%; 
+    max-width: 600px; 
+    padding: 30px; 
+    border-radius: 25px; 
+    box-shadow: 0 4px 8px rgb(0, 0, 0); 
+    box-sizing: border-box; 
+    margin: auto; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: rgb(150, 142, 142);
+    font-size: 2.5em; 
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #ffffffab;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 500px; 
+    max-width: 480px; 
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.382);
+    border-radius: 10px;
+    margin: auto; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.input img {
+    margin: 0 15px;
+    width: 24px; 
+    height: 24px; 
+}
+
+.input input {
+    height: 50px;
+    width: 100%; 
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 1em; 
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 15px;
+    margin: 20px auto; 
+    width: 100%;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    max-width: 200px; 
+    height: 59px;
+    color: rgb(255, 255, 255);
+    background: #b4003f7a;
+    border-radius: 50px;
+    font-size: 1em; 
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit:hover {
+    background: #ff0055be;
+    transform: scale(1.05);
+}
+
+.grey {
+    background: #EAEAEA;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.grey:hover {
+    background: #dcdcdc;
+    color: #333333;
+}
